@@ -17,8 +17,8 @@ export const results: Record<CharacterType, Result> = {
     character: '『이방인』의 뫼르소',
     title: '당신은 『이방인』의 뫼르소입니다.',
     description: ['무언가가 시작되려는 순간에도,',
-      '당신은 그 흐름을 그대로 둡니다.',
-      '아무것도 덧붙이지 않은 채.'],
+      ' 당신은 그 흐름을 그대로 둡니다.',
+      ' 아무것도 덧붙이지 않은 채.'],
     storyTitle: '42. 안달리아의 일곱 밤',
     storyText: `밤은 유연했다.
 호흡 한 번에 새벽까지 길게 다리를 뻗었고, 별이 지는 동안에도 흔들리지 않고 자리를 지켰다. 밤은 늘 느슨했고, 그러면서도 어김없이 물러날 때를 알고 있었다.
@@ -45,7 +45,7 @@ export const results: Record<CharacterType, Result> = {
     character: '허먼 멜빌의 바틀비',
     title: '당신은 허먼 멜빌의 바틀비입니다.',
     description: ['당신은 한 걸음을 내딛지 않습니다.',
-         '그래서 모든 것이 그대로 남습니다.'],
+         ' 그래서 모든 것이 그대로 남습니다.'],
     storyTitle: '90. 각자의 연애',
     storyText: `다코타와 존슨은 각자의 연애를 한다.
 
@@ -71,7 +71,7 @@ export const results: Record<CharacterType, Result> = {
     character: '『레 미제라블』의 장발장',
     title: '당신은 『레 미제라블』의 장발장입니다.',
     description: ['당신은 결국 나누는 쪽을 선택합니다.',
-              '그 선택이 이후의 모든 것을 바꿉니다.'],
+              ' 그 선택이 이후의 모든 것을 바꿉니다.'],
     storyTitle: '20. 물을 나눠줬죠',
     storyText: `기차는 지구를 벗어나고 있었다. 생존을 위해 떠나는 사람들 틈에서 얏쿰 만이 들떠 있었다.
 
@@ -98,12 +98,12 @@ export const results: Record<CharacterType, Result> = {
     ogDescription: "결국 나누는 쪽을 선택했다. 그 선택이 이후의 모든 것을 바꿨다.",
   },
 
-  don: {
-    type: 'don',
+  donquixote: {
+    type: 'donquixote',
     character: '『돈키호테』의 돈키호테',
     title: '당신은 『돈키호테』의 돈키호테입니다.',
     description: ['당신은 사라진 것을 위해서도',
-                '끝까지 그 자리를 지키는 사람입니다.'],
+                ' 끝까지 그 자리를 지키는 사람입니다.'],
     storyTitle: '7. 이정표',
     storyText: `도심을 지나 산길로 접어드는 좁은 샛길에는 이정표가 있다. 발이 묶인 채 평생을 살았지만, 그에겐 자긍심이 있었다.
 
@@ -125,8 +125,8 @@ export const results: Record<CharacterType, Result> = {
     character: '『햄릿』의 햄릿',
     title: '당신은 『햄릿』의 햄릿입니다.',
     description: ['결정해야 하는 순간에도',
-                '당신은 쉽게 움직이지 못합니다.',
-                '그 사이에서 시간이 흘러갑니다.'],
+                ' 당신은 쉽게 움직이지 못합니다.',
+                ' 그 사이에서 시간이 흘러갑니다.'],
     storyTitle: '74. 도강',
     storyText: `“내래 연결선을 안다우.”
 “갓나새끼, 니가 어찌 연결선을 안단 말이가?”

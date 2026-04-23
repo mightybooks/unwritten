@@ -1,11 +1,11 @@
 import { CharacterType } from '@/data/questions';
 
-const PRIORITY: CharacterType[] = ['valjean', 'don', 'hamlet', 'meursault', 'bartleby'];
+const PRIORITY: CharacterType[] = ['valjean', 'donquixote', 'hamlet', 'meursault', 'bartleby'];
 
 export function calculateResult(answers: CharacterType[]): CharacterType {
   const counts: Record<CharacterType, number> = {
     valjean: 0,
-    don: 0,
+    donquixote: 0,
     hamlet: 0,
     meursault: 0,
     bartleby: 0,
