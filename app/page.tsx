@@ -1,6 +1,7 @@
 "use client"
 
 import Link from 'next/link';
+import VisitorCount from '@/components/VisitorCount'
 
 export default function Home() {
   return (
@@ -77,6 +78,9 @@ export default function Home() {
       </div>
 
       {/* CTA */}
+
+      <VisitorCount />
+
       <Link
         href="/test"
         className="animate-fade-in delay-4"
@@ -95,7 +99,7 @@ export default function Home() {
         onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
       >
         시작하기
-      </Link>
+      </Link>           
 
       {/* Bottom note */}
       <p
