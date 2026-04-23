@@ -15,7 +15,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const result = results[key];
 
   // 👉 도메인 반드시 본인 걸로 변경
-  const baseUrl = 'https://당신도메인.com';
+  const baseUrl = 'https://unwritten-psi.vercel.app/';
 
   if (!result) {
     return {

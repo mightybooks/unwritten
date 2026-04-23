@@ -288,7 +288,7 @@ export default function ResultView({ result }: Props) {
             onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.6')}
             onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
           >
-            이 이야기를 더 이어보기 →
+            더 많은 이야기가 궁금하다면 →
           </a>
         </div>
 

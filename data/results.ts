@@ -37,7 +37,7 @@ export const results: Record<CharacterType, Result> = {
 안달리아는 조용히 낙타를 끌어당겼다.
 밤은 여전히 유연했다.`,
     ogTitle: "나는 『이방인』의 뫼르소였다",
-    ogDescription: "무언가가 시작되려는 순간에도,\n그 흐름을 그대로 두는 쪽이었다.",
+    ogDescription: "무언가가 시작되려는 순간에도, 그 흐름을 그대로 두는 쪽이었다.",
   },
 
   bartleby: {
@@ -63,7 +63,7 @@ export const results: Record<CharacterType, Result> = {
 
 다코타와 존슨은 오늘도 각자의 연애에만 몰입한다.`,
     ogTitle: "나는 허먼 멜빌의 바틀비였다",
-    ogDescription: "한 걸음을 내딛지 않는 쪽이었다.\n그래서 모든 것이 그대로 남았다.",
+    ogDescription: "한 걸음을 내딛지 않는 쪽이었다. 그래서 모든 것이 그대로 남았다.",
   },
 
   valjean: {
@@ -95,7 +95,7 @@ export const results: Record<CharacterType, Result> = {
 
 얏쿰은 고개를 돌렸다. 역시 인간은 답이 없다. 기차는 지구를 벗어나고 있었지만, 인간은 여전히 제자리걸음이었다.`,
     ogTitle: "나는 『레 미제라블』의 장발장이었다",
-    ogDescription: "결국 나누는 쪽을 선택했다.\n그 선택이 이후의 모든 것을 바꿨다.",
+    ogDescription: "결국 나누는 쪽을 선택했다. 그 선택이 이후의 모든 것을 바꿨다.",
   },
 
   don: {
@@ -117,7 +117,7 @@ export const results: Record<CharacterType, Result> = {
 
 새들은 차마 말할 수 없었다. 이미 오래 전에 그 작은 마을은 사라졌다는 걸.`,
     ogTitle: "나는 『돈키호테』의 돈키호테였다",
-    ogDescription: "사라진 것을 위해서도\n끝까지 그 자리를 지키는 쪽이었다.",
+    ogDescription: "사라진 것을 위해서도 끝까지 그 자리를 지키는 쪽이었다.",
   },
 
   hamlet: {
@@ -149,6 +149,6 @@ export const results: Record<CharacterType, Result> = {
 찬성은 입을 닫았다.
 여름까지 6개월이 아니라, 당장 6분, 아니 6초가 버거웠다.`,
     ogTitle: "나는 『햄릿』의 햄릿이었다",
-    ogDescription: "결정해야 하는 순간에도,\n쉽게 움직이지 못하는 쪽이었다.",
+    ogDescription: "결정해야 하는 순간에도, 쉽게 움직이지 못하는 쪽이었다.",
   },
 };
