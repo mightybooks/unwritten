@@ -6,8 +6,10 @@ export const metadata: Metadata = {
   description: '당신의 선택이 하나의 서사를 만듭니다.',
   openGraph: {
     title: '쓰지 않고 쓰는 내 인생, 소설',
-    description: '당신의 선택이 하나의 서사를 만듭니다.',
-    images: ['/og-default.png'],
+    description: '당신의 선택이 하나의 서사를 만듭니다.',    
+  },
+  verification: {
+    google: '16LgOTtn--lHPZEAVf0h2NuRilPisRGREtf3wZooizo',
   },
 };
 
