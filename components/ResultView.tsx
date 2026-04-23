@@ -85,6 +85,15 @@ export default function ResultView({ result }: Props) {
             }}
           >
             {result.title}
+            <img
+              src={`/og-${result.type}.jpg`}
+              alt="result"
+              style={{
+                width: '100%',
+                margin: '2rem 0',
+                display: 'block',
+              }}
+            />
           </p>
           <div
             style={{
