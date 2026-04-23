@@ -243,7 +243,7 @@ export default function ResultView({ result }: Props) {
               zIndex: 100,
             }}
           >
-            나는 {result.title}였다.
+            나는 {result.characterName}였다.
             너는 뭐 나올지 궁금하다.
           </div>
         )}

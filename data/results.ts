@@ -2,6 +2,7 @@ import { CharacterType } from './questions';
 
 export type Result = {
   type: CharacterType;
+  characterName : string;
   character: string;
   title: string;
   description: string[];
@@ -14,6 +15,7 @@ export type Result = {
 export const results: Record<CharacterType, Result> = {
   meursault: {
     type: 'meursault',
+    characterName: '뫼르소',
     character: '『이방인』의 뫼르소',
     title: '당신은 『이방인』의 뫼르소입니다.',
     description: ['무언가가 시작되려는 순간에도,',
@@ -42,6 +44,7 @@ export const results: Record<CharacterType, Result> = {
 
   bartleby: {
     type: 'bartleby',
+    characterName: '바틀비',
     character: '허먼 멜빌의 바틀비',
     title: '당신은 허먼 멜빌의 바틀비입니다.',
     description: ['당신은 한 걸음을 내딛지 않습니다.',
@@ -68,6 +71,7 @@ export const results: Record<CharacterType, Result> = {
 
   valjean: {
     type: 'valjean',
+    characterName: '장발장',
     character: '『레 미제라블』의 장발장',
     title: '당신은 『레 미제라블』의 장발장입니다.',
     description: ['당신은 결국 나누는 쪽을 선택합니다.',
@@ -100,6 +104,7 @@ export const results: Record<CharacterType, Result> = {
 
   donquixote: {
     type: 'donquixote',
+    characterName: '돈키호테',
     character: '『돈키호테』의 돈키호테',
     title: '당신은 『돈키호테』의 돈키호테입니다.',
     description: ['당신은 사라진 것을 위해서도',
@@ -122,6 +127,7 @@ export const results: Record<CharacterType, Result> = {
 
   hamlet: {
     type: 'hamlet',
+    characterName: '햄릿',
     character: '『햄릿』의 햄릿',
     title: '당신은 『햄릿』의 햄릿입니다.',
     description: ['결정해야 하는 순간에도',
