@@ -1,26 +1,60 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500&family=Courier+Prime&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ink: #1a1814;
+  --paper: #f5f2ec;
+  --paper-warm: #ede9e0;
+  --accent: #2d2926;
+  --muted: #7a7570;
+  --line: #d4cfc8;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background-color: var(--paper);
+  color: var(--ink);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--paper);
+  min-height: 100vh;
 }
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.delay-1 { animation-delay: 0.1s; opacity: 0; }
+.delay-2 { animation-delay: 0.2s; opacity: 0; }
+.delay-3 { animation-delay: 0.35s; opacity: 0; }
+.delay-4 { animation-delay: 0.5s; opacity: 0; }
+.delay-5 { animation-delay: 0.65s; opacity: 0; }
+.delay-6 { animation-delay: 0.8s; opacity: 0; }
+.delay-7 { animation-delay: 1.0s; opacity: 0; }
+
+.font-serif { font-family: 'Noto Serif KR', Georgia, serif; }
+.font-sans  { font-family: 'Noto Sans KR', sans-serif; }
+.font-mono  { font-family: 'Courier Prime', monospace; }
