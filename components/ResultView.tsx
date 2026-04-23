@@ -41,7 +41,7 @@ export default function ResultView({ result }: Props) {
       content: {
         title: result.ogTitle,
         description: result.ogDescription,
-        imageUrl: `${window.location.protocol}//${window.location.host}/og-${result.type}.png`,
+        imageUrl: `${window.location.protocol}//${window.location.host}/og-${result.type}.jpg`,
         link: { mobileWebUrl: url, webUrl: url },
       },
       buttons: [
