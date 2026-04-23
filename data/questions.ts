@@ -42,7 +42,7 @@ export const questions: Question[] = [
     scene: '발밑에서 물이 차오르고 있다.',
     prompt: '당신은',
     choices: [
-      { text: '재빨리 상황을 알린다', type: 'valjean' },
+      { text: '모두에게 상황을 알린다', type: 'valjean' },
       { text: '왜 이런 일이 생겼는지 주변을 살펴본다', type: 'meursault' },
       { text: '일단 물을 피해 자리를 옮긴다', type: 'bartleby' },
       { text: '여유롭게 그 자리를 지킨다', type: 'donquixote' },
@@ -54,7 +54,7 @@ export const questions: Question[] = [
     scene: '물이 허리까지 차올랐다.',
     prompt: '당신은',
     choices: [
-      { text: '다른 사람을 먼저 돕는다', type: 'valjean' },
+      { text: '직접 상황을 해결하기 위해 나선다', type: 'valjean' },
       { text: '그래도 그 자리를 버티고 선다', type: 'donquixote' },
       { text: '조용히 그 자리를 떠난다', type: 'bartleby' },
       { text: '상황을 조금만 더 지켜본다', type: 'meursault' },
@@ -66,7 +66,7 @@ export const questions: Question[] = [
     scene: '"누가 떠올라?"',
     prompt: '마지막으로, 당신은',
     choices: [
-      { text: '사랑하는 이의 이름을 말한다', type: 'valjean' },
+      { text: '가장 먼저 떠오른 이의 이름을 말한다', type: 'valjean' },
       { text: '굳이 말하지는 않기로 한다', type: 'bartleby' },
       { text: '떠오르는 감정을 흘려보낸다', type: 'meursault' },
       { text: '이미 줄곧 하나의 이름만을 떠올리고 있었다', type: 'donquixote' },

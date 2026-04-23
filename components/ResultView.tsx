@@ -52,7 +52,7 @@ export default function ResultView({ result }: Props) {
 
   const handleCopy = async () => {
     const url = getResultUrl(result.type);
-    const toastText = `${url}\n\n이상하게 맞습니다. 한번 해보세요.`;
+    const toastText = `${url}\n\n 넌 이거 나랑 완전 반대로 나올 듯`;
     const ok = await copyToClipboard(toastText);
     if (ok) {
       setCopied(true);
@@ -243,7 +243,8 @@ export default function ResultView({ result }: Props) {
               zIndex: 100,
             }}
           >
-            이상하게 맞습니다. 한번 해보세요.
+            나는 {result.title}였다.
+            너는 뭐 나올지 궁금하다.
           </div>
         )}
 
